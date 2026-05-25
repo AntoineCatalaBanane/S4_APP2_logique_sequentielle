@@ -1,0 +1,49 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "design_1_sig_fct_sat_dure_0_1",
+    "cell_name": "M3_fonction_distorsion_dure2",
+    "component_reference": "xilinx.com:module_ref:sig_fct_sat_dure:1.0",
+    "ip_revision": "1",
+    "gen_directory": "../../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_sig_fct_sat_dure_0_1",
+    "parameters": {
+      "component_parameters": {
+        "c_ech_u24_max": [ { "value": "0x1FFFFF", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "Component_Name": [ { "value": "design_1_sig_fct_sat_dure_0_1", "resolve_type": "user", "usage": "all" } ]
+      },
+      "model_parameters": {
+        "c_ech_u24_max": [ { "value": "0x1FFFFF", "resolve_type": "generated", "format": "bitString", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynq" } ],
+        "BASE_BOARD_PART": [ { "value": "digilentinc.com:zybo-z7-10:part0:1.0" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7z010" } ],
+        "NEXTGEN_VERSAL": [ { "value": "0" } ],
+        "PACKAGE": [ { "value": "clg400" } ],
+        "PREFHDL": [ { "value": "VHDL" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_sig_fct_sat_dure_0_1" } ],
+        "SELECTEDSIMMODEL": [ { "value": "rtl" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2024.1" } ],
+        "SYNTHESISFLOW": [ { "value": "OOC_HIERARCHICAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "i_ech": [ { "direction": "in", "size_left": "23", "size_right": "0" } ],
+        "o_ech_fct": [ { "direction": "out", "size_left": "23", "size_right": "0" } ]
+      }
+    }
+  }
+}

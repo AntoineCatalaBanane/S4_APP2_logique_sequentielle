@@ -1,0 +1,1 @@
+--debug typical --relax --mt 2  -L xil_defaultlib -L xlconstant_v1_1_9 -L util_vector_logic_v2_0_4 -L xlconcat_v2_1_6 -L xlslice_v1_0_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot design_1 xil_defaultlib.design_1 xil_defaultlib.glbl -log elaborate.log
