@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_module_commande_0_0/sim/design_1_module_commande_0_0.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../pb_logique_seq.ip_user_files/mem_init_files" --include "../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/sim" --include "../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_xlconstant_0_3/sim" --include "../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_xlconstant_0_2/sim" --include "../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_xlconcat_0_0/sim" --include "../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_xlslice_0_0/sim" --include "../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_xlconstant_0_1/sim" --include "../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_xlconcat_0_0/sysc" --include "../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_xlslice_0_0/sysc" \
+"../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ipshared/6120/hdl/xlconcat_v2_1_vl_rfs.v" \
+"../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v" \
+"../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ipshared/a97c/hdl/xlslice_v1_0_vl_rfs.v" \
+
+sv xil_defaultlib  --include "../../../../../pb_logique_seq.ip_user_files/mem_init_files" --include "../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/sim" --include "../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_xlconstant_0_3/sim" --include "../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_xlconstant_0_2/sim" --include "../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_xlconcat_0_0/sim" --include "../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_xlslice_0_0/sim" --include "../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_xlconstant_0_1/sim" --include "../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_xlconcat_0_0/sysc" --include "../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_xlslice_0_0/sysc" \
+"../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_xlconcat_0_0/sim/design_1_xlconcat_0_0_stub.sv" \
+"../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0_stub.sv" \
+"../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_xlconstant_0_1/sim/design_1_xlconstant_0_1_stub.sv" \
+"../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_xlconstant_0_2/sim/design_1_xlconstant_0_2_stub.sv" \
+"../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_xlconstant_0_3/sim/design_1_xlconstant_0_3_stub.sv" \
+"../../../../../pb_logique_seq.gen/sources_1/bd/design_1/ip/design_1_xlslice_0_0/sim/design_1_xlslice_0_0_stub.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
