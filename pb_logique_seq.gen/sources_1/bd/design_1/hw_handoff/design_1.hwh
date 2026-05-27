@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon May 25 13:10:05 2026" VIVADOVERSION="2024.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue May 26 15:11:06 2026" VIVADOVERSION="2024.1">
 
-  <SYSTEMINFO ARCH="zynq" DEVICE="7z010" NAME="design_1" PACKAGE="clg400" SPEEDGRADE="-1"/>
+  <SYSTEMINFO ARCH="zynq" BOARD="digilentinc.com:zybo-z7-10:part0:1.0" DEVICE="7z010" NAME="design_1" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
   <EXTERNALPORTS>
     <PORT DIR="O" LEFT="7" NAME="JPmod" RIGHT="0" SIGIS="undef" SIGNAME="M10_conversion_affichage_JPmod">
@@ -21,9 +21,9 @@
         <CONNECTION INSTANCE="M9_codeur_i2s_compteur_nbits_0" PORT="clk"/>
         <CONNECTION INSTANCE="M10_conversion_affichage" PORT="clk"/>
         <CONNECTION INSTANCE="M5_parametre_1" PORT="i_bclk"/>
-        <CONNECTION INSTANCE="M6_parametre_2" PORT="i_bclk"/>
         <CONNECTION INSTANCE="M7_parametre_3" PORT="i_bclk"/>
         <CONNECTION INSTANCE="M8_commande" PORT="clk"/>
+        <CONNECTION INSTANCE="M6_parametre_2" PORT="i_bclk"/>
       </CONNECTIONS>
     </PORT>
     <PORT DIR="I" LEFT="3" NAME="i_btn" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_i_btn">
@@ -159,8 +159,8 @@
         <PORT DIR="O" NAME="o_str_dat" SIGIS="undef" SIGNAME="M1_decodeur_i2s_MEF_decodeur_i2s_o_str_dat">
           <CONNECTIONS>
             <CONNECTION INSTANCE="M5_parametre_1" PORT="i_en"/>
-            <CONNECTION INSTANCE="M6_parametre_2" PORT="i_en"/>
             <CONNECTION INSTANCE="M7_parametre_3" PORT="i_en"/>
+            <CONNECTION INSTANCE="M6_parametre_2" PORT="i_en"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -556,8 +556,8 @@
             <CONNECTION INSTANCE="M9_codeur_i2s_reg_dec_24b_fd_0" PORT="i_reset"/>
             <CONNECTION INSTANCE="M10_conversion_affichage" PORT="reset"/>
             <CONNECTION INSTANCE="M5_parametre_1" PORT="i_reset"/>
-            <CONNECTION INSTANCE="M6_parametre_2" PORT="i_reset"/>
             <CONNECTION INSTANCE="M7_parametre_3" PORT="i_reset"/>
+            <CONNECTION INSTANCE="M6_parametre_2" PORT="i_reset"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="1" NAME="o_selection_fct" RIGHT="0" SIGIS="undef" SIGNAME="M8_commande_o_selection_fct">
@@ -991,8 +991,8 @@
           <CONNECTIONS>
             <CONNECTION INSTANCE="M9_codeur_i2s_mux2_0" PORT="input2"/>
             <CONNECTION INSTANCE="M5_parametre_1" PORT="i_ech"/>
-            <CONNECTION INSTANCE="M6_parametre_2" PORT="i_ech"/>
             <CONNECTION INSTANCE="M7_parametre_3" PORT="i_ech"/>
+            <CONNECTION INSTANCE="M6_parametre_2" PORT="i_ech"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" LEFT="1" NAME="sel" RIGHT="0" SIGIS="undef" SIGNAME="M8_commande_o_selection_fct">

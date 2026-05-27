@@ -1,0 +1,1 @@
+vopt -64 -l elaborate.log +acc=npr -suppress 10016  -L xil_defaultlib -L xlconstant_v1_1_9 -L xlconcat_v2_1_6 -L xlslice_v1_0_4 -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.design_1 xil_defaultlib.glbl -o design_1_opt
